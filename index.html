@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <link rel="shortcut icon" href="./img/logoTab.jpg" type="image/x-icon" />
+    <title>CommuniX Inc</title>
+  </head>
+
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-5">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="./img/logoTab.jpg"
+            alt="brand"
+            width="50"
+            height="35"
+            class="d-inline-block align-text-top"
+          />Communix Inc</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./public/news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./public/jobs.html">Careers</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="./public/login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./public/register.html">Register</a>
+            </li>
+          </ul>
+
+          <a
+            id="goBackToDashboard"
+            class="hidden"
+            onclick="goBackToDashboard()"
+          >
+            <h3 id="goBackToDashboard" onclick="goBackToDashboard()">
+              <i class="bi bi-grid-1x2-fill"></i>
+            </h3>
+          </a>
+
+          <a
+            class="nav-link"
+            href="https://k-karambit.github.io/PORTFOLIO-2023/"
+            ><i class="bi bi-github"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+
+    <section
+      class="hero d-flex flex-column justify-content-center text-center p-5 bg-light"
+    >
+      <div class="container">
+        <div class="col-auto">
+          <h1 class="h1-title">Together, Let's Make It Happen!</h1>
+          <p class="pt-5">
+            We offer customized call center services for small to medium-sized
+            client headcount needs that are designed to meet and exceed
+            expectations.
+          </p>
+        </div>
+
+        <div
+          style="
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 56.25%;
+            padding-bottom: 0;
+            box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+            margin-top: 10rem;
+            margin-bottom: 0.9em;
+            overflow: hidden;
+            border-radius: 8px;
+            will-change: transform;
+          "
+        >
+          <iframe
+            loading="lazy"
+            style="
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              border: none;
+              padding: 0;
+              margin: 0;
+            "
+            src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFR0jZ31DU&#x2F;view?embed"
+            allowfullscreen="allowfullscreen"
+            allow="fullscreen"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="hero d-flex flex-column justify-content-center text-center p-5 bg-light"
+      id="services"
+    >
+      <div class="container pt-5">
+        <div class="col-auto">
+          <h2>Our Services</h2>
+          <p class="pt-3">
+            Our distinct approach is not only what distinguishes us, but also
+            what drives our success.
+          </p>
+        </div>
+
+        <div
+          class="container d-flex-wrap justify-content-evenly mt-5 gap-4 row"
+        >
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/CustomerCare.webp"
+              class="card-img-top"
+              alt="Customer Care"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Customer Care</h5>
+              <p class="card-text">
+                Our number one concern is customer satisfaction.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/BackOfficeSupport.webp"
+              class="card-img-top"
+              alt="Back Office Support"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Back Office Support</h5>
+              <p class="card-text">
+                We will assist you successfully in managing your workload with
+                our knowledge.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/EmailAndChatSupport.webp"
+              class="card-img-top"
+              alt="Email and Chat Support"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Email and Chat Support</h5>
+              <p class="card-text">
+                We'll never miss a chance to answer a customer's complaint.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/SalesSupport.webp"
+              class="card-img-top"
+              alt="Sales Support"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sales Support</h5>
+              <p class="card-text">
+                Our professionals have a demonstrated track record of generating
+                leads to sales.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/LeadGeneration.webp"
+              class="card-img-top"
+              alt="Lead Generation"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lead Generation</h5>
+              <p class="card-text">
+                We use specific methods to speed up the process and connect your
+                organization to the right leads.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="hero d-flex flex-column justify-content-center text-center p-5 mt-5 bg-dark"
+    >
+      <div class="container pt-5">
+        <div class="col-auto">
+          <h3 class="numbers-title">We're Good with Numbers</h3>
+        </div>
+
+        <div
+          class="d-flex flex-row justify-content-center text-center gap-5 p-5"
+        >
+          <h6 class="btn1 no-of-exp-and-emp">
+            60+ <br />
+            Years of Experience
+          </h6>
+          <h6 class="btn1 no-of-exp-and-emp">
+            600+ <br />
+            Numbers of Employees
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <div class="container my-5 pt-5" id="aboutUs">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-lg-start text-sm-center">
+            About Us
+          </h1>
+          <p class="lead">
+            COMMUNIX INC. has worked hard to provide smart, flexible, and
+            affordable services to all of our customers. Whatever your
+            requirements are, our team of experts will go above and beyond to
+            tailor our solutions to exceed your expectations. Browse our
+            services and contact us today to schedule an introductory meeting.
+
+            <br />
+            <br />
+            <br />
+
+            We have worked as part of global companies and have been trained by
+            industry leaders to successfully manage both voice and non-voice
+            accounts for global clients with resource requirements ranging from
+            20 to 600 Full Time Employees (FTE), supporting a full spectrum of
+            simple to complex process requirements with an emphasis on
+            performance management.
+          </p>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img
+            class="rounded-lg-3"
+            src="./img/cmx-img/Screenshot_4.webp"
+            alt=""
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section
+      class="hero d-flex flex-column justify-content-center text-center p-5 mt-5 bg-dark"
+    >
+      <div class="container py-5">
+        <div class="col-auto">
+          <h3 class="numbers-title">We Provide Best Solutions</h3>
+          <p class="pt-3">
+            A variety of products and services that assist companies in
+            facilitating change.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container my-5">
+      <div
+        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-lg-start text-sm-center">
+            Our Mission
+          </h1>
+          <p class="lead">
+            To provide world-class but cost-efficient services in business
+            process outsourcing which aims to grow our clients business through
+            our 3 main principles, Quality, Competitive Pricing and Excellent
+            Services.
+          </p>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img
+            class="rounded-lg-3"
+            src="./img/cmx-img/JTX26783.webp"
+            alt=""
+            width="720"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div
+        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+      >
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-lg-start text-sm-center">
+            Our Vision
+          </h1>
+          <p class="lead">
+            To connect the business world to skilled people that can help lead
+            our clients to success through innovative, world-class but cost
+            efficient outsourcing solutions. .
+          </p>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img
+            class="rounded-lg-3"
+            src="./img/cmx-img/JTX26646.webp"
+            alt=""
+            width="720"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section
+      class="hero d-flex flex-column justify-content-center text-center p-5 bg-light"
+    >
+      <div class="container pt-5">
+        <div class="col-auto">
+          <h2>Core Values</h2>
+          <p class="pt-3">
+            Personal ethics or ideas that serve as a guide for your
+            decision-making, relationship-building, and problem-solving.
+          </p>
+        </div>
+
+        <div
+          class="container d-flex-wrap justify-content-evenly mt-5 gap-4 row"
+        >
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/core1.webp"
+              class="card-img-top"
+              alt="Make it Happen Attitude"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Make it Happen Attitude</h5>
+              <p class="card-text">
+                Whatever stage of our journey, we will do our best to equip
+                ourselves and optimize our knowledge so that we can effectively
+                and efficiently provide our client's needs
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/core2.webp"
+              class="card-img-top"
+              alt="We Act as One"
+            />
+            <div class="card-body">
+              <h5 class="card-title">We Act as One</h5>
+              <p class="card-text">
+                We promote individual accountability and collective
+                responsibility. We believe that we are better when we work
+                together.
+              </p>
+            </div>
+          </div>
+
+          <div class="card p-5" style="width: 25rem">
+            <img
+              src="./img/core3.webp"
+              class="card-img-top"
+              alt="Dare to Think Differently"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dare to Think Differently</h5>
+              <p class="card-text">
+                At the heart of our success are highly collaborative and
+                inquisitive individuals who are always willing to welcome fresh
+                and new ideas through team work, collaborative diversity, and
+                shared knowledge.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.7451454866896!2d120.9462264147572!3d14.441845489903722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d4f418441adf%3A0x5633ca9d036a2a57!2sCommunix%20Inc.!5e0!3m2!1sen!2sph!4v1668339636480!5m2!1sen!2sph"
+      width="100%"
+      height="600"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      title="map"
+    ></iframe>
+
+    <hr />
+
+    <div class="px-4 py-5 my-5 text-center">
+      <img
+        class="d-block mx-auto mb-4"
+        src="./img/logo.png"
+        alt=""
+        width="620"
+        height="120"
+      />
+      <h6 class="display-6 fw-bold">Let's Work Together!</h6>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Philippines, Bacoor Cavite <br />
+          communixinc@gmail.com <br />
+          (+63) 912 3456 789 <br />
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="https://www.facebook.com/CommuniXInc" target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/communix-inc-cxi/"
+            target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/cxi_bpo" target="_blank"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/cxi_bpo/" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/@user-nv7wq6qb1q" target="_blank"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <br />
+      <br />
+      <hr />
+      <a href="https://storyset.com/event" target="_blank"
+        >Illustrations by Storyset</a
+      >
+      <br />
+      <br />
+      <a href="https://www.communixinc.com/" target="_blank"
+        >Contents are owned by CommuniX Inc</a
+      >
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

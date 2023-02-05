@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.h1-title {
+  color: #343434;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+p {
+  color: #6c757d;
+}
+
+.numbers-title {
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.no-of-exp-and-emp {
+  color: #ba2649;
+  font-size: 1.7rem;
+}
+
+.bi {
+  color: #ba2649;
+  font-size: 1.7rem;
+}
+
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
